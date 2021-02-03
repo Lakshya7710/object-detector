@@ -1,23 +1,27 @@
-
-.heading
-{
-font-size: 30px;
-width: 100%;
-margin: 0px;
-}
-
-#status,#number_of_objects
-{
-font-size: 18px;
-}
-
 body{
     background-size: cover;
-    background-position: center;
+}
+
+.heading{
+    font-size: 23px;
+    margin: 0;
+    width: 100%;
+}
+#start,#number_of_objects,#status{
+    font-size: 18px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    line-height: 2;
+    font-size: 18px;
 }
 
 canvas{
-    box-shadow: 5px 5px grey;
-    border-radius: 20px;
-    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 77px;
+    box-shadow: 5px 5px 8px white;
 }
